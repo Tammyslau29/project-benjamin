@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/project-benjamin/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/project-benjamin/static/js/main.3e8506d6.chunk.js",
+    "main.js.map": "/project-benjamin/static/js/main.3e8506d6.chunk.js.map",
+    "runtime-main.js": "/project-benjamin/static/js/runtime-main.b48e7f01.js",
+    "runtime-main.js.map": "/project-benjamin/static/js/runtime-main.b48e7f01.js.map",
+    "static/js/2.724f4d7c.chunk.js": "/project-benjamin/static/js/2.724f4d7c.chunk.js",
+    "static/js/2.724f4d7c.chunk.js.map": "/project-benjamin/static/js/2.724f4d7c.chunk.js.map",
+    "static/js/3.e4287a4a.chunk.js": "/project-benjamin/static/js/3.e4287a4a.chunk.js",
+    "static/js/3.e4287a4a.chunk.js.map": "/project-benjamin/static/js/3.e4287a4a.chunk.js.map",
+    "index.html": "/project-benjamin/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/project-benjamin/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.724f4d7c.chunk.js.LICENSE.txt": "/project-benjamin/static/js/2.724f4d7c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/project-benjamin/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b48e7f01.js",
+    "static/js/2.724f4d7c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.3e8506d6.chunk.js"
+  ]
+}
