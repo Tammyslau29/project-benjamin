@@ -1,0 +1,108 @@
+.imagesOuter{
+    display:flex;
+    height: 100vh;
+}
+
+.ben{
+    position: absolute;
+    top: 40%;
+    left: 46.4%;
+    z-index: 10;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.imageContainer{
+    // background-position: 0 -50%;
+    background-position: center;
+    width: 50vw;
+    height: 100%;
+    background-size: 107vw;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+   cursor: pointer;
+
+    &:hover{
+        background-size: 150vw;
+    }
+
+    .title{
+        font-size: 40px;
+        color: white;
+        font-family: 'Monoton', cursive;
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+    }
+}
+
+.leftHiddenContent{
+    display: none;
+}
+
+.drawerOpen{
+    bottom: 0;
+    height: 100%;
+    
+}
+
+.showContent{
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .7;
+    overflow: hidden;
+    width: 50vw;
+    transition: .5s ease;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .3;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .player{
+      padding: 10px 0;
+  }
+
+  .playerContainer{
+      height: 350px;
+      overflow: scroll;
+  }
+
+  .personalTitle{
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+  }
+
+  .playerContainer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+.playerContainer::-webkit-scrollbar-thumb {
+    background: #888;
+  }
